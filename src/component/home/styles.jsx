@@ -16,14 +16,14 @@ const useStyles = makeStyles((theme) => ({
     animation: `$slide-animation 4s linear infinite`,
   },
   "@keyframes slide-animation": {
-    "0%": {
+    from: {
       opacity: 0,
       backgroundPositionY: "50%",
     },
-    "55%": {
+    "50%": {
       opacity: 1,
     },
-    "100%": {
+    to: {
       opacity: 0,
       backgroundPositionY: "65%",
     },
@@ -32,7 +32,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${home1})`,
     zIndex: 3,
   },
-
   slide2: {
     backgroundImage: `url(${home2})`,
     zIndex: 2,
