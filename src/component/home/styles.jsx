@@ -4,36 +4,42 @@ import home2 from "../../assets/background/wzf2-desktop.webp";
 import home3 from "../../assets/background/wzf3-desktop.webp";
 const useStyles = makeStyles((theme) => ({
   bannerContainer: {
+    position: "absolute",
     backgroundPositionX: "50%",
     backgroundPositionY: "50%",
     minHeight: "100vh",
+    width: "100%",
     height: "100vh",
     backgroundRepeat: "noRepeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    animation: `$slide-animation 4s linear 0s`,
+    animation: `$slide-animation 4s linear infinite`,
   },
   "@keyframes slide-animation": {
     "0%": {
       opacity: 0,
       backgroundPositionY: "50%",
     },
-    "100%": {
+    "55%": {
       opacity: 1,
-      backgroundPositionY: "60%",
+    },
+    "100%": {
+      opacity: 0,
+      backgroundPositionY: "65%",
     },
   },
-
-  home1: {
+  slide1: {
     backgroundImage: `url(${home1})`,
+    zIndex: 3,
   },
-  home2: {
+
+  slide2: {
     backgroundImage: `url(${home2})`,
+    zIndex: 2,
   },
-  home3: {
+  slide3: {
     backgroundImage: `url(${home3})`,
-    display: "block",
-    top: "0px",
+    zIndex: 1,
   },
 }));
 
