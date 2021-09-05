@@ -13,32 +13,42 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: "noRepeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    animation: `$slide-animation 4s linear infinite`,
+    animation: `$slide-animation 4s linear infinite 0s`,
+
+    // "div:nth-of-type(1)": {
+    //   display: "none",
+    // },
   },
   "@keyframes slide-animation": {
-    from: {
+    "0%": {
       opacity: 0,
       backgroundPositionY: "50%",
     },
-    "50%": {
+    "25%": {
       opacity: 1,
     },
-    to: {
+    "75%": {
+      opacity: 1,
+    },
+    "100%": {
       opacity: 0,
       backgroundPositionY: "65%",
     },
   },
   slide1: {
+    // animationDelay: "1s",
     backgroundImage: `url(${home1})`,
-    zIndex: 3,
+    // zIndex: 3,
   },
   slide2: {
+    // animationDelay: "4s",
     backgroundImage: `url(${home2})`,
-    zIndex: 2,
+    // zIndex: 2,
   },
   slide3: {
+    // animationDelay: "0s",
     backgroundImage: `url(${home3})`,
-    zIndex: 1,
+    // zIndex: 1,
   },
 }));
 

@@ -25,11 +25,17 @@ const LandingPage = () => {
 
   return (
     <React.Fragment>
+      {/* {slides.map((item, index) => (
+        <div
+          key={index}
+          className={`${classes.bannerContainer} ${item.image}`}
+        ></div>
+      ))} */}
       <div
         className={`${classes.bannerContainer} ${slides[current].image}`}
       ></div>
-
-      {/* <button onClick={nextSlider}>Test</button> */}
+      {/* {console.log(current)} */}
+      {/* {/* <button onClick={nextSlider}>Test</button> */}
     </React.Fragment>
   );
 };
