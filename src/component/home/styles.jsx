@@ -2,7 +2,6 @@ import { makeStyles } from "@material-ui/core";
 import home1 from "../../assets/background/wzf1-desktop.webp";
 import home2 from "../../assets/background/wzf2-desktop.webp";
 import home3 from "../../assets/background/wzf3-desktop.webp";
-import { useTransition, animated, config } from "react-spring";
 
 const useStyles = makeStyles((theme) => ({
   bannerContainer: {
@@ -16,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
     backgroundPosition: "center",
     willChange: "opacity",
-    animation: `$slide-animation 4s linear infinite 0s`,
+    animation: `$slide-animation 6.5s linear infinite 0s`,
 
     // "div:nth-of-type(1)": {
     //   display: "none",
@@ -24,18 +23,18 @@ const useStyles = makeStyles((theme) => ({
   },
   "@keyframes slide-animation": {
     "0%": {
-      opacity: 0,
+      // opacity: 0,
       backgroundPositionY: "50%",
     },
-    "25%": {
-      opacity: 1,
-    },
-    "75%": {
-      opacity: 1,
-    },
+    // "25%": {
+    //   opacity: 1,
+    // },
+    // "75%": {
+    //   opacity: 1,
+    // },
     "100%": {
-      opacity: 0,
-      backgroundPositionY: "65%",
+      // opacity: 0,
+      backgroundPositionY: "60%",
     },
   },
   slide1: {
