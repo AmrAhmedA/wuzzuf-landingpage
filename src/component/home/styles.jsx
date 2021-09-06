@@ -2,6 +2,8 @@ import { makeStyles } from "@material-ui/core";
 import home1 from "../../assets/background/wzf1-desktop.webp";
 import home2 from "../../assets/background/wzf2-desktop.webp";
 import home3 from "../../assets/background/wzf3-desktop.webp";
+import { useTransition, animated, config } from "react-spring";
+
 const useStyles = makeStyles((theme) => ({
   bannerContainer: {
     position: "absolute",
@@ -13,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundRepeat: "noRepeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
+    willChange: "opacity",
     animation: `$slide-animation 4s linear infinite 0s`,
 
     // "div:nth-of-type(1)": {
