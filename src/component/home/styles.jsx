@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "cover",
     backgroundPosition: "center",
     willChange: "opacity",
-    animation: `$slide-animation 6.5s linear infinite 0s`,
+    animation: `$slide-animation 6s linear 0s both`,
 
     // "div:nth-of-type(1)": {
     //   display: "none",
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     // },
     "100%": {
       // opacity: 0,
-      backgroundPositionY: "60%",
+      backgroundPositionY: "65%",
     },
   },
   slide1: {
