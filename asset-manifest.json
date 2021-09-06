@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wuzzuf-landingpage/static/css/main.a617e044.chunk.css",
+    "main.js": "/wuzzuf-landingpage/static/js/main.5fbb54a2.chunk.js",
+    "main.js.map": "/wuzzuf-landingpage/static/js/main.5fbb54a2.chunk.js.map",
+    "runtime-main.js": "/wuzzuf-landingpage/static/js/runtime-main.82f0a840.js",
+    "runtime-main.js.map": "/wuzzuf-landingpage/static/js/runtime-main.82f0a840.js.map",
+    "static/js/2.f65f0286.chunk.js": "/wuzzuf-landingpage/static/js/2.f65f0286.chunk.js",
+    "static/js/2.f65f0286.chunk.js.map": "/wuzzuf-landingpage/static/js/2.f65f0286.chunk.js.map",
+    "static/js/3.b88deae4.chunk.js": "/wuzzuf-landingpage/static/js/3.b88deae4.chunk.js",
+    "static/js/3.b88deae4.chunk.js.map": "/wuzzuf-landingpage/static/js/3.b88deae4.chunk.js.map",
+    "index.html": "/wuzzuf-landingpage/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/wuzzuf-landingpage/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.f65f0286.chunk.js.LICENSE.txt": "/wuzzuf-landingpage/static/js/2.f65f0286.chunk.js.LICENSE.txt",
+    "static/media/wzf1-desktop.f8c50db3.webp": "/wuzzuf-landingpage/static/media/wzf1-desktop.f8c50db3.webp",
+    "static/media/wzf2-desktop.65ddfa09.webp": "/wuzzuf-landingpage/static/media/wzf2-desktop.65ddfa09.webp",
+    "static/media/wzf3-desktop.de772de2.webp": "/wuzzuf-landingpage/static/media/wzf3-desktop.de772de2.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82f0a840.js",
+    "static/js/2.f65f0286.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.5fbb54a2.chunk.js"
+  ]
+}
