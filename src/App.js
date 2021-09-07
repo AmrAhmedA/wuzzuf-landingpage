@@ -1,10 +1,10 @@
 import './App.css';
 import LandingPage from './component/home';
-
+import PureFadeCss from "./component/test/fade.jsx"
 function App() {
   return (
     <div className="App">
-      <LandingPage />
+      <PureFadeCss />
       {/* <FadeAnimation /> */}
     </div>
   );
